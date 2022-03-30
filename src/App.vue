@@ -19,7 +19,7 @@
             }`"
             @click="setId = page.id"
           >
-            <img class="invert mr-4" :src="'./src/assets/icons/' + page.icon" />
+            <img class="invert mr-4" :src="page.icon" />
             <p class="">{{ page.name }}</p>
           </button>
         </div>
@@ -284,17 +284,17 @@ export default {
         {
           id: "home",
           name: "Home",
-          icon: "home.png",
+          icon: "https://i.ibb.co/tcLWHqv/home.png",
         },
         {
           id: "search",
           name: "Search",
-          icon: "search.png",
+          icon: "https://i.ibb.co/sw9nb5K/search.png",
         },
         {
           id: "library",
           name: "Your Library",
-          icon: "library.png",
+          icon: "https://i.ibb.co/JKGLXY2/library.png",
         },
       ],
       setId: "home",
